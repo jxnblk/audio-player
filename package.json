@@ -7,5 +7,21 @@
     "test": "mocha test"
   },
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/audio-player.git"
+  },
+  "keywords": [
+    "HTML5",
+    "audio",
+    "player"
+  ],
+  "bugs": {
+    "url": "https://github.com/jxnblk/audio-player/issues"
+  },
+  "homepage": "https://github.com/jxnblk/audio-player"
 }
