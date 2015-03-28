@@ -1,6 +1,6 @@
 {
   "name": "audio-player",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Client-side HTML5 audio player",
   "main": "index.js",
   "scripts": {
