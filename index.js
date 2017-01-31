@@ -19,6 +19,13 @@ module.exports = function() {
     audio.pause();
     this.playing = false;
   }
+  
+  this.isPlaying = function() {
+    if (audio.duration > 0 && !audio.paused)
+      return true;
+    else 
+      return false;
+  }
 
   this.playPause = function(src) {
     if (src != this.playing) {
